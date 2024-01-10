@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 import requests
 import json
 root = Tk()
+root.title("Tree of Words")
 root.geometry("350x190")
 style = ttk.Style()
 style.theme_use('default')
